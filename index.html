@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fania Rizkyy</title>
+</head>
+<body>
+    <h1>Ini elemen Heading</h1>
+    <!-- Heading adalah kata kata yg mendeskripsikan isi dari tulisan yg kita buat (sprti judul) -->
+     
+    <h1>Heading 1: Paling besar dan menonjol untuk judul utama.</h1>
+    <h2>Heading 2: Judul bagian utama, sedikit lebih kecil dari H1</h2>
+    <h3>Heading 3: Sub-bagian dari H2.</h3>
+    <h4>Heading 4: Sub-bagian lebih kecil dari H3.</h4>
+    <h5>Heading 5: Detil lebih dalam.</h5>
+    <h6>Heading 6: Teks paling kecil untuk catatan atau sub-detail.</h6>
+    <hr>
+
+    <h1>Ini elemen Paragraph</h1>
+    <!-- Paragraph selalu mulai dengan garis baru -->
+
+    <h1>Belajar HTML dengan Programmer Zaman Now</h1>
+    <p>Kita akan belajar membuat Website menggunakan HTML</p>
+    <p>Semua website
+        menggunakan HTML
+        untuk membuat halaman nya
+    </p>
+    <hr>
+
+    <h1>Ini elemen Entities</h1>
+    <!-- Reserved Characters 
+     Beberapa karakter sudah dipesan oleh HTML, sehingga kita tidak bisa gunakan pada tulisan text biasa, contohnya karakter <, / atau >
+     jika memaksakan menuliskan hal tsb di teks paragraf, secara otomatis halaman HTML akan error/ rusak/ tidak sesuai dgn yg kita mau -->
+
+     <!-- Kode : HTML Reserved Characters -->
+    <h1>Belajar<HTML></h1>
+
+     <!-- Entities
+     Karakter yang sudah dipesan di HTML, dinamakan HTML Entity
+     Ada banyak sekali HTML Entity, dan direkomendasikan untuk menggunakan simbol Entity nya, ketika kita ingin menggunakan karakter tersebut
+     Tapi sebenarnya tidak wajib, kita tetap bisa menggunakan karakter asli, namun lebih aman jika menggunakan simbol Entity nya -->
+
+     <!-- Kode : HTML Entities -->
+    <h1>Belajar &#60;HTML&#62;</h1>
+    <hr>
+
+    <h1>Ini elemen Break Line</h1>
+    <!--Enter di dalam tulisan tidak akan dianggap enter oleh HTML, jika ingin membuat enter, disarankan membuat paragraf terpisah
+    Namun, jika benar benar ingin membuat enter di dlm pargraf, bisa menggunakan tag br
+    tag br : void element, jadi tidak memiliki konten
+    tag hr adalah membuat garis horizontal dari kiri ke kanan sebagai pemisah
+    tag hr : void elemet, jadi tidak memiliki konten -->
+
+    <h1>Belajar HTML</h1>
+    <p>Ini adalah paragraph
+        <br>
+        Ini adalah baris selanjutnya
+    </p>
+
+    <!-- Horizontal Rule
+         tag hr adalah membuat garis horizontal dari kiri ke kanan sebagai pemisah
+         tag hr : void elemet, jadi tidak memiliki konten
+         Kode : Horizontal Rule -->
+    <h1>Belajar HTML</h1>
+    <p>Ini adalah paragraph
+          <br>
+          Ini adalah baris selanjutnya
+          <hr>
+          Ini adalah baris selanjutnya dengan garis
+    </p>
+    <hr>
+
+    <h1>Ini elemen Style</h1>
+    <!-- CSS : jika kita ingin mengubah font, ukurannya, dan warnanya, kita perlu belajar CSS terlebih dahulu. Namun pada kelas ini, kita akan bahas sekilas cara menggunakan CSS yang sederhana.
+         style attribute : setiap tag HTML memiliki atribut style, dimana kita bisa menambahkan informasi CSS, untuk mengubah gaya isi element-nya
+                           style attribute berisikan key:value CSS, jika lebih dari 1 maka gunakan ;(titik koma) sbg pemisah
+         Contoh : <namatag style="property:value">
+                 <namatag style="property:value;property2:value2"> 
+         Contoh CSS : background-color : untuk mengubah warna latar belakang, 
+         color : untuk mengubah warna font, 
+         font-family : untuk mengubah jenis font, 
+         font-size : untuk mengubah ukuran text, 
+         text-align : untuk mengubah rata tulisan secara horizontal, bisa left (kiri), right (kanan), center (tengah), justify (kiri dan kanan)
+         
+         Kode : Style -->
+    <h1 style="color: red;">Belajar HTML</h1>
+
+    <p style="background-color: aqua;">Hari ini kita akan belajar HTML dengan Programmer Zaman Now</p>
+    <p style="color: blue; font-size: 200%;">Ini ada style dengan warna biru dan ukuran font 200%</p>
+    <hr>
+
+    <h1>Ini elemen Formatting</h1>
+    <!-- Di HTML, kita bisa menambah formatting di text yg ingin kita tampilkan menggunakan tag sesuai dengan format yg kita mau
+     Formatting Tag :
+     <b>, <strong> untuk bold / tebal
+     <i>, <em> untuk italic / miring
+     <small> untuk text kecil
+     <del> untuk text dicoret
+     <ins> untuk text dengan garis bawah
+     <sub> untuk subscript text
+     <sup> untuk superscript text -->
+
+    <!-- Kode : Formatting Tag -->
+    <p>
+          Halo <b>Eko</b>, Selamat Belajar <i>HTML</i> dengan <strong>Programmer Zaman Now</strong>
+    </p>
+    <p>
+         Jangan <del>pesimis</del> ya, tetap <ins>semangat</ins>
+    </p>
+    <p>2<sup>2</sup> = 4</p>
+    <hr>
+
+    <h1>Ini elemen Comment</h1>
+    <!-- Comment / komentar : informasi tambahan di HTML yg tidak akan ditampilkan di halaman Web
+        biasanya digunakan untuk menambahkan informasi tambahan untuk pengembang Web jadi tujuannya bukan untuk ditampilkan di halaman Web
+        semua yg ada di isi komentar tidak akan ditampilkan, termasuk tag HTML -->
+
+    <h1>Belajar HTML</h1>
+    <!-- Ini adalah komentar <p> dan tidak akan muncul di halaman web </p> -->
+    <p>Ini muncul</p>
+    <hr>
+
+    <h1>Ini element Color</h1>
+    <!-- HTML mendukung format penulisan warna tidak hanya dengan nama warna nya (red, blue, green), namun juga dengan format penulisan seperti HEX, RGB, HSL dan lain-lain
+         Dengan begitu, penulisan warna jadi lebih akurat dibandingkan hanya dengan nama warna nya-->
+    <!-- Color Picker 
+          Salah satu website yang bisa kita gunakan untuk memilih warna adalah : https://colorpicker.me/ 
+          Disana kita bisa mencari warna yang kita mau, dan menyalin kode Hex untuk warna tersebut -->
+
+    <!-- Code : Color -->
+      <h1 style="background-color: #da18d6;">Belajar HTML</h1>
+      <h1 style="background-color: rgb(26, 217, 24);">Bersama Programmer Zaman Now</h1>
+      <h1 style="background-color: hsl(226, 80%, 47%);">Tetap Semangat!</h1>
+      <hr>
+
+    <h1>Ini elemet List</h1>
+    <!-- Unordered List
+         Untuk membuat daftar tulisan, kita bisa menggunakan tag ul di HTML
+         Tiap daftar isi nya, kita bisa menggunakan tag li -->
+
+    <!-- Kode : Unordered List -->
+    <h2>Daftar Hobby</h2>
+        <ul>
+           <li>Koding</li>
+           <li>Main Game</li>
+           <li>Olahraga</li>
+        </ul>
+
+    <!-- Ordered List
+      Jika kita ingin membuat daftar yang berurut (memiliki angka), kita bisa mengganti tag ul menjadi ol
+      Untuk daftar isi nya tetap sama menggunakan tag li -->
+
+    <!-- Kode : Ordered List -->
+    <h2>Tahapan Belajar HTML</h2>
+      <ol>
+      <li>Menginstall Aplikasi</li>
+      <li>Belajar Pengenalan Web</li>
+      <li>Belajar HTML</li>
+      <li>Menjalankan di Web Hosting</li>
+    </ol>
+
+    <!--Ordered List Type 
+      Pada kasus ketika kita menggunakan daftar yang berurut (ol), kita bisa mengubah format daftar nya, defaultnya menggunakan angka (dimulai dari 1).
+      Kita bisa menambahkan attribute type di ol dengan nilai :
+      type=”1”, artinya daftar isi akan menggunakan angka (ini adalah defaultnya)
+      type=”A”, artinya daftar isi akan menggunakan huruf kapital
+      type=”a”, artinya daftar isi akan menggunakan huruf kecil
+      type=”I”, artinya daftar isi akan menggunakan angka romawi kapital
+      type=”i”, artinya daftar isi akan menggunakan angka romawi kecil -->
+
+    <!-- Kode : Ordered List Type -->
+    <h2>Tahapan Belajar HTML</h2>
+      <ol type="I">
+          <li>Menginstall Aplikasi</li>
+          <li>Belajar Pengenalan Web</li>
+          <li>Belajar HTML</li>
+          <li>Menjalankan di Web Hosting</li>
+      </ol>
+    <hr>
+          
+    <h1>Ini elemen Link</h1>
+    <!-- Saat membuat Web, biasanya kita akan membuat banyak sekali halaman HTML
+         Untuk berpindah dari satu halaman ke halaman lain, kita biasanya jarang melakukannya secara manual dengan cara mengetikkannya di search bar Web Browser
+         HTML memiliki fitur Link (Tautan), dimana kita bisa meng-klik Link tersebut, dan berpindah ke halaman HTML lain
+         Link tidak harus dalam bentuk Text, Link juga bisa dalam bentuk Gambar misalnya (yang akan kita bahas di materi Image) -->
+
+    <!-- Tag a
+          Untuk membuat Link di HTML, kita bisa menggunakan tag a
+          Isi konten tag a adalah isi dari tampilan Link, bisa Text atau yang lainnya
+          Tag a memiliki attribute href, yang berisi lokasi tujuan Link tersebut
+          Tag a juga memiliki attribute target, yang digunakan sebagai target jendela Web Browser, kita bisa gunakan nilai :
+          target=”_self”, artinya halaman akan ditampilkan di halaman yang sama, ini adalah bawaan default 
+          target=”_blank”, artinya halaman akan ditampilkan di jendela baru di Browser
+          Tag a juga memiliki attribute title, untuk menuliskan judul yang keluar ketika mouse berada di atas Link tersebut -->
+
+    <!-- Kode : Link -->
+    <h1>Belajar Link</h1>
+      <ul>
+          <li><a href="https://paniaa10.github.io/portofolio/" target="_self" title="paniaa"><img src="akuu.png" alt="fania" width="75px"></a></li>
+          <li><a href="https://youtube.com/@fniarzky?si=AHjJWyXut2gxp057" target="_blank">Youtube</a></li>
+          <li><a href="https://www.instagram.com/sy.pania?igsh=NHYzODM5emhuMW91" target="_blank">Instagram</a></li>
+      </ul>
+
+    <!-- Kode : Bookmark di Halaman Sendiri -->
+    <h1>Daftar Isi</h1>
+      <ul>
+          <li><a href="#judul1">Judul 1</a></li>
+          <li><a href="#judul2">Judul 2</a></li>
+          <li><a href="#judul3">Judul 3</a></li>
+      </ul>
+
+    <h1 id="judul1">Judul 1</h1>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+
+    <h1 id="judul2">Judul 2</h1>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+
+    <h1 id="judul3">Judul 3</h1>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+      <p>Artikel Panjang</p>
+    <hr>
+
+    <h1>Ini elemen Image</h1>
+     <!-- Kode : Image -->
+      <h1>Belajar Image</h1>
+      <img style="width: 10%; height: 10%;" src="akuu.png" alt="Fotokuu">
+    <hr>
+
+    <h1>Ini elemen Picture</h1>
+     <h1>Belajar Picture</h1>
+     <!-- Kode : Picture -->
+      <picture>
+          <source media="(max-width: 500px)" srcset="logo1.jpg">
+          <source media="(max-width: 1000px)" srcset="logo2.jpg">
+          <img src="logo3.jpg" alt="logof" style="width: 250px; height: 250px;">
+      </picture>
+    <hr>
+     
+    <h1>Ini elemen Computer Code</h1>
+    <!-- Kode : Pre -->
+    <h1>Belajar Kode Java</h1>
+    <pre>
+
+public static void main(String[] args){
+System.out.println("Hello World");
+}
+
+    </pre>
+    <hr>
+
+    <h1>Ini elemen Emoji</h1>
+     <!-- daftar emoji yang dapat kita gunakan, dan kodenya disini :
+    https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_all.cfm -->
+    <!-- Kode : Emoji -->
+     <h1>Hello &#x1F600; &#x1F602; &#x1F923;</h1>
+    <hr>
+
+    <h1>Ini elemen Head</h1>
+    <!-- Tag head digunakan untuk menambah informasi yang tidak dimunculkan di halaman web
+    Head biasanya digunakan untuk menambah informasi seperti CSS atau JavaScript
+    Head juga biasa digunakan untuk menambahkan metadata (informasi tambahan) untuk halaman HTML, biasanya digunakan oleh Search Engine misalnya
+    Di dalam Head, tag title digunakan untuk mengubah judul halaman di Web Browser. -->
+    <!-- Kode : Title -->
+     <title>Belajar HTML - Programmer Zaman Now</title>
+     <head>
+     <meta name="author" content="Fania Rizky Novitasari">
+     <meta name="keywords" content="HTML, Programmer Zaman Now, CSS, JavaScript">
+     <meta name="description" content="Belajar HTML Dasar">
+     </head>
+     <body>
+    <h1>Belajar Head</h1>
+     </body>
+    <hr>
+
+    <h1>Ini elemen Favicon</h1>
+    <head>
+      <title>Belajar Favicon</title>
+      <link rel="icon" href="logo4.jpg">
+    </head>
+    <body>
+      <h1>Belajar Favicon</h1>
+    </body>
+    <hr>
+
+    <h1>Ini elemen Block dan Inline</h1>
+    <!-- Kode : Div -->
+    <div id="menu" style="background-color: yellow;">
+      <ul>
+        <li>Beranda</li>
+        <li>Artikel</li>
+        <li>Media Sosial</li>
+      </ul>
+    </div>
+    <div id="content" style="background-color: pink;">
+      <h1>Judul Halaman</h1>
+      <p>Isi Halaman</p>
+    </div>
+
+    <h1 style="background-color: aqua;">Contoh</h1>
+
+    <!-- Kode : Span -->
+    <h1>
+      <span style="color: red;">Programmer</span>
+      <span style="color: blue;">Zaman</span>
+      <span style="color: orange;">Now</span>
+  </h1>
+    <hr>
+
+  <h1>Ini elemen Video</h1>
+  <h1>Belajar Video</h1>
+  <video width="350px" height="400px" controls>
+    <source src="vid.mp4">
+  </video>
+  <hr>
+  
+  <h1>Ini elemen Audio</h1>
+  <h1>Belajar Audio</h1>
+    <audio controls>
+      <source src="audio.mp3">
+    </audio>
+  <hr>
+
+  <h1>Ini elemen HTML5</h1>
+
+  <hr>
+
+  <h1>Ini elemen Inline Frame</h1>
+  <h1>Belajar Inline Frame</h1>
+    <iframe src="color.html" frameborder="0" height="500px" width="1000px">
+        Browser Tidak Mendukung Inline Frame
+    </iframe>
+</body>
+  <hr>
+
+<h1>Ini elemen Table</h1>
+<!-- Tag Table :
+Tag table, digunakan untuk membuat tabel
+Tag tr untuk membuat row / baris
+Tag th untuk membuat kolom header table
+Tag td untuk membuat kolom isi table
+Tag caption untuk keterangan table
+Tag thead, untuk grup header table
+Tag tbody, untuk grup isi table
+Tag tfoot, untuk grup footer table -->
+
+<h1>Belajar Table</h1>
+
+  <table style="border: 1px solid black;">
+      <colgroup>
+          <col span="2" style="background-color: yellow;">
+          <col style="background-color: aqua;">
+       </colgroup>
+       <thead>
+          <tr>
+              <th>Nama Depan</th>
+              <th>Nama Belakang</th>
+              <th>Nilai</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Fania</td>
+              <td>Rizky</td>
+              <td>80</td>
+          </tr>
+          <tr>
+              <td>Ren</td>
+              <td>aldy</td>
+              <td>90</td>
+          </tr>
+      </tbody>
+      <tfoot>
+          <tr>
+              <td rowspan="2">Total</td>
+              <td>Total</td>
+              <td>170</td>
+          </tr>
+          <tr>
+              <td>Rata - Rata</td>
+              <td>85</td>
+          </tr>
+      </tfoot>
+  </table>
+<hr>
+
+<h1>Ini elemen Semantic</h1>
+
+<hr>
+
+  <h1>Ini halaman attribute</h1>
+    <p>Nama : Fania Rizky Novitasari</p>
+    <img src="akuu.png" alt="Paniaa" width="150px">
+</body>
+</html>
